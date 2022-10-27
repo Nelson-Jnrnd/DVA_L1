@@ -3,4 +3,10 @@
     <string name="activity_1">Activity 1</string>
     <string name="activity_2">Activity 2</string>
     <string name="activity_3">Activity 3</string>
+    <string name="welcome">Bienvenue, veuillez entrer votre prénom</string>
+    <string name="edit">EDITER</string>
+    <string name="save">SAUVER</string>
+    <string name="name">PRENOM</string>
+    <string name="hello2">Hello World2</string>
+    <string name="hello3">Hello World3</string>
 </resources>
