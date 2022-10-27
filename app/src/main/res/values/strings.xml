@@ -7,6 +7,8 @@
     <string name="edit">EDITER</string>
     <string name="save">SAUVER</string>
     <string name="name">PRENOM</string>
+    <string name="hello">Bienvenue</string>
+    <string name="regex">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-</string>
     <string name="hello2">Hello World2</string>
     <string name="hello3">Hello World3</string>
 </resources>
