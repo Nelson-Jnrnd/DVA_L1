@@ -6,12 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".ActivityPart2">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello2"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="359dp"
-        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        tools:ignore="MissingConstraints">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="fill_parent"
+        android:name="com.example.labo_1.CounterFragment"
+        tools:layout="@layout/fragment_counter" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="fill_parent"
+        android:name="com.example.labo_1.ColorFragment"
+        tools:layout="@layout/fragment_color"
+        app:layout_constraintTop_toBottomOf="@+id/fragment1"/>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
