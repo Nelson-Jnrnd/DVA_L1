@@ -11,6 +11,8 @@
     <string name="regex">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-</string>
     <string name="hello2">Hello World2</string>
     <string name="hello3">Hello World3</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_step_no">Numéro de l\'étape</string>
+    <string name="previous">Précédent</string>
+    <string name="close">Fermer</string>
+    <string name="next">Suivant</string>
 </resources>

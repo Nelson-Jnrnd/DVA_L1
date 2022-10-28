@@ -15,7 +15,7 @@
         tools:ignore="MissingConstraints">
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/previous"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/activity_1"
@@ -23,7 +23,7 @@
             tools:layout_editor_absoluteY="146dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/activity_2"
@@ -32,7 +32,7 @@
             android:layout_margin="10dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/activity_3"
