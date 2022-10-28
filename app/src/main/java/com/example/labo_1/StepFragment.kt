@@ -52,7 +52,6 @@ class StepFragment : Fragment() {
          * @param noStep Number of the step in the view.
          * @return A new instance of fragment StepFragment.
          */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(noStep: Int) =
             StepFragment().apply {

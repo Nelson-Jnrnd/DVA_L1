@@ -9,9 +9,7 @@
     <string name="name">PRENOM</string>
     <string name="hello">Bienvenue</string>
     <string name="regex">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-</string>
-    <string name="hello2">Hello World2</string>
-    <string name="hello3">Hello World3</string>
-    <string name="label_step_no">Numéro de l\'étape</string>
+    <string name="step_no">Numéro de l\'étape</string>
     <string name="previous">Précédent</string>
     <string name="close">Fermer</string>
     <string name="next">Suivant</string>

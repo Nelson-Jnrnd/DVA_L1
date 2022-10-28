@@ -1,9 +1,8 @@
 package com.example.labo_1
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class ActivityPart3 : AppCompatActivity() {
 
@@ -29,14 +28,9 @@ class ActivityPart3 : AppCompatActivity() {
         pushStep()
     }
 
-    private fun popStep() {
-        if (supportFragmentManager.backStackEntryCount > 0) {
-            supportFragmentManager.popBackStack()
-        } else {
-            finish()
-        }
-    }
-
+    /**
+     * Push a new step fragment on the stack
+     */
     private fun pushStep() {
         supportFragmentManager.beginTransaction()
             .setReorderingAllowed(true)
@@ -46,5 +40,17 @@ class ActivityPart3 : AppCompatActivity() {
             )
             .addToBackStack(null)
             .commit()
+    }
+
+    /**
+     * Pop the last step fragment from the stack
+     * If there is only one fragment left, finish the activity
+     */
+    private fun popStep() {
+        if (supportFragmentManager.backStackEntryCount > 0) {
+            supportFragmentManager.popBackStack()
+        } else {
+            finish()
+        }
     }
 }
