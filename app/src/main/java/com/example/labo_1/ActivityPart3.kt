@@ -24,8 +24,8 @@ class ActivityPart3 : AppCompatActivity() {
         previous.setOnClickListener {
             popStep()
         }
-
-        pushStep()
+        if(savedInstanceState == null)
+            pushStep()
     }
 
     /**
